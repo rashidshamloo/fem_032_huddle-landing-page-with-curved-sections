@@ -80,11 +80,11 @@ const Section = ({
       {curve && (
         <picture>
           <source
-            srcSet={`/images/bg-section-top-desktop-${curve}.svg`}
+            srcSet={`images/bg-section-top-desktop-${curve}.svg`}
             media="(min-width:600px)"
           />
           <img
-            src={`/images/bg-section-top-mobile-${curve}.svg`}
+            src={`images/bg-section-top-mobile-${curve}.svg`}
             alt=""
             aria-hidden="true"
             className="w-full"
@@ -108,7 +108,7 @@ const Section = ({
           ref={imageScope}
         >
           <img
-            src={`/images/illustration-${image}.svg`}
+            src={`images/illustration-${image}.svg`}
             alt="Grow Together"
             aria-hidden="true"
             className="max-w-full"
@@ -136,11 +136,11 @@ const Section = ({
       {curve && (
         <picture>
           <source
-            srcSet={`/images/bg-section-bottom-desktop-${curve}.svg`}
+            srcSet={`images/bg-section-bottom-desktop-${curve}.svg`}
             media="(min-width:600px)"
           />
           <img
-            src={`/images/bg-section-bottom-mobile-${curve}.svg`}
+            src={`images/bg-section-bottom-mobile-${curve}.svg`}
             alt=""
             aria-hidden="true"
             className="w-full"

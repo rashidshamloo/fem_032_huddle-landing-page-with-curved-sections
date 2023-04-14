@@ -55,7 +55,7 @@ const CountUp = ({
   return (
     <div className={"inline-block " + className} {...props}>
       <img
-        src={`/images/${image}.svg`}
+        src={`images/${image}.svg`}
         alt=""
         aria-hidden="true"
         className="mb-2 w-[2rem] md:w-auto"

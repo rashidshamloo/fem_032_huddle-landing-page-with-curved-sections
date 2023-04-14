@@ -3,7 +3,7 @@ const Header = () => {
     <header className="flex justify-between p-6 md:mx-auto md:max-w-[78%] md:px-0 md:py-16">
       <a href="#0" aria-label="Home">
         <img
-          src="/images/logo.svg"
+          src="images/logo.svg"
           aria-hidden="true"
           alt="Huddle Logo"
           className="w-[6rem] md:w-auto"

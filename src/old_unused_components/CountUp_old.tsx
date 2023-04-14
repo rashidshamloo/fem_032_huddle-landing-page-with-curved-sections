@@ -48,7 +48,7 @@ const CountUp = ({ image, maxCount, unit, text, className="", ...props }: CountU
   return (
     <div className={"inline-block "+className} {...props}>
       <img
-        src={`/images/${image}.svg`}
+        src={`images/${image}.svg`}
         alt=""
         aria-hidden="true"
         className="mb-2 w-[2rem] md:w-auto"

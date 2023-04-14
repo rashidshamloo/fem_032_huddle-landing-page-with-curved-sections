@@ -40,11 +40,11 @@ const Footer = () => {
     <footer className="overflow-hidden text-white">
       <picture>
         <source
-          srcSet="/images/bg-footer-top-desktop.svg"
+          srcSet="images/bg-footer-top-desktop.svg"
           media="(min-width:600px)"
         />
         <img
-          src="/images/bg-footer-top-mobile.svg"
+          src="images/bg-footer-top-mobile.svg"
           alt=""
           aria-hidden="true"
           className="w-full"
@@ -59,7 +59,7 @@ const Footer = () => {
         >
           <a href="#0" aria-label="Home">
             <img
-              src="/images/logo.svg"
+              src="images/logo.svg"
               aria-hidden="true"
               alt="Huddle Logo"
               className="max-w-[12rem] brightness-0 invert lg:max-w-full"
@@ -71,7 +71,7 @@ const Footer = () => {
           </p>
           <div className="mt-10 flex items-center">
             <img
-              src="/images/icon-phone.svg"
+              src="images/icon-phone.svg"
               aria-hidden="true"
               alt=""
               className=""
@@ -80,7 +80,7 @@ const Footer = () => {
           </div>
           <div className="mt-6 flex items-center">
             <img
-              src="/images/icon-email.svg"
+              src="images/icon-email.svg"
               aria-hidden="true"
               alt=""
               className=""
@@ -88,13 +88,13 @@ const Footer = () => {
             <p className="ml-6">example@huddle.com</p>
           </div>
           <div className="mt-10 flex gap-5 text-3xl lg:gap-6 lg:text-4xl [&>a]:transition-all [&>a]:duration-500 hover:[&>a]:text-pink">
-            <a href="#0">
+            <a href="#0" title="Facebook">
               <FaFacebook />
             </a>
-            <a href="#0">
+            <a href="#0" title="Instagram">
               <FaInstagram />
             </a>
-            <a href="#0">
+            <a href="#0" title="Twitter">
               <FaTwitter />
             </a>
           </div>
@@ -104,9 +104,9 @@ const Footer = () => {
           duration={2}
           className="flex max-w-[85%] flex-col lg:max-w-[33rem]"
         >
-          <h3 className="font-poppins text-xl uppercase lg:text-2xl">
+          <h2 className="font-poppins text-xl uppercase lg:text-2xl">
             Newsletter
-          </h3>
+          </h2>
           <p className="mt-6 text-sm leading-relaxed lg:max-w-[65%]">
             To recieve tips on how to grow your community, sign up to our weekly
             newsletter. We’ll never send you spam or pass on your email address

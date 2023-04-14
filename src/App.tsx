@@ -40,7 +40,7 @@ function App() {
           effect="scaleDown"
         >
           <img
-            src="/images/screen-mockups.svg"
+            src="images/screen-mockups.svg"
             alt="Screen Mockups"
             aria-hidden="true"
             className="mx-auto mt-24 aspect-[1035/739] w-full max-w-[80%] md:mt-28 md:max-w-[62%]"
